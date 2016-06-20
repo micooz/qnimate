@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>qnimate demo</title>
+</head>
+<body>
+<div id="playground"></div>
+<script src="qnimate.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function main() {
+    var qnimate = new Qnimate({
+      id: 'playground',
+      width: 960,
+      height: 500,
+      vertices: 40
+    });
+    qnimate.run();
+  });
+</script>
+</body>
+</html>
