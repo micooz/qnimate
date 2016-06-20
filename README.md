@@ -32,6 +32,30 @@ Build and bundle:
 $ npm run build:prod
 ```
 
+## Usage
+
+**HTML**:
+
+    <div id="playground"></div>
+
+**js**:
+
+    <script src="qnimate.min.js"></script>
+
+`Qnimate` will be exposed to `window`, create an instance of `Qnimate`, pass an option object and then call `run()`:
+
+```js
+document.addEventListener('DOMContentLoaded', function main() {
+  var qnimate = new Qnimate({
+    id: 'playground',
+    width: 960,
+    height: 500,
+    vertices: 40
+  });
+  qnimate.run();
+});
+```
+
 ## Acknowledgments
 
 `d3.voronoi` - https://github.com/d3/d3-voronoi
