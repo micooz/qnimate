@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --config webpack/dev.config.js",
-    "build": "NODE_ENV=production webpack --config webpack/prod.config.js --progress --profile --display-error-details --verbose --colors"
+    "build": "NODE_ENV=production webpack --config webpack/prod.config.js --progress --profile --display-error-details --verbose --colors",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
