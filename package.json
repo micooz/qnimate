@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/micooz/qnimate#readme",
   "dependencies": {
-    "d3": "^4.2.6"
+    "d3": "^4.2.7"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",
