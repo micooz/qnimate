@@ -29,7 +29,7 @@ $ npm start
 Build and bundle:
 
 ```shell
-$ npm run build:prod
+$ npm run build
 ```
 
 ## Usage
