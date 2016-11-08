@@ -15,8 +15,6 @@ module.exports = {
 
     extensions: ['', '.js', '.css'],
 
-    root: path.resolve(__dirname, 'src/client'),
-
     modulesDirectories: ['node_modules']
 
   },
